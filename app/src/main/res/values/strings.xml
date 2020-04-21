@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">custom</string>
+    <string name="react">React</string>
+    <string name="ionic">Ionic</string>
+    <string name="android">Android</string>
+    <string name="flutter">Flutter</string>
 </resources>

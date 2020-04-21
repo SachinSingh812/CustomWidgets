@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="160dp"
+        android:layout_height="90dp"
+        android:gravity="start"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/item1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:padding="12dp"
+            android:button="@drawable/checkbox_custom" />
+
+        <TextView
+            android:id="@+id/sdk1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_gravity="center_vertical"
+            android:text="@string/flutter"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="160dp"
+        android:layout_height="90dp"
+        android:gravity="start"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/item2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:layout_gravity="center_vertical"
+            android:button="@drawable/checkbox_custom" />
+
+        <TextView
+            android:id="@+id/sdk2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/android"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="160dp"
+        android:layout_height="90dp"
+        android:gravity="start"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/item3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:padding="12dp"
+            android:button="@drawable/checkbox_custom" />
+
+        <TextView
+            android:id="@+id/sdk3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/ionic"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="160dp"
+        android:layout_height="90dp"
+        android:gravity="start"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/item4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:padding="12dp"
+            android:button="@drawable/checkbox_custom" />
+
+        <TextView
+            android:id="@+id/sdk4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/react"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/submit_sdk"
+        android:layout_gravity="start"
+        android:layout_margin="54dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Submit"/>
+
+
+</LinearLayout>
