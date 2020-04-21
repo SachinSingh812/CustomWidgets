@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+
+        <Button
+            android:id="@+id/goTo_customButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="26dp"
+            android:text="Custom Button Example"
+            android:layout_gravity="center_horizontal"/>
+
+        <Button
+            android:id="@+id/goTo_customRadio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="26dp"
+            android:text="Custom Radio Button Example"
+            android:layout_gravity="center_horizontal"/>
+
+        <Button
+            android:id="@+id/goTo_customCheck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="26dp"
+            android:text="Custom Check Box Example"
+            android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>
